@@ -10,5 +10,11 @@
     "city": "Townville",
     "state": "FL",
     "zipcode": "32145"
+  },
+  "bob": {
+    "street": "1 Test Ave",
+    "city": "Austin",
+    "state": "TX",
+    "zipcode": "78701"
   }
 }
