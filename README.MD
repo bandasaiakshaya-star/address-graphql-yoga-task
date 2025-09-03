@@ -61,3 +61,22 @@ You're tasked with 5 tickets this sprint. Four of these tickets should be comple
 ### Expectations and notes
 
 We're not expecting something that's highly polished and production ready. The purpose here is to see if you can meet the goals outlined and to evaluate the choices you've made to achieve those goals. To that end, feel free to use AI to **explain** sections of code to you, but don't use it to actually write the code. It's important that you understand what's going on in the code and can explain your choices.
+
+
+### Local Setup
+
+run theses commands
+
+```bash
+npm i graphql graphql-yoga @envelop/core @envelop/parser-cache @envelop/validation-cache @graphql-tools/load-files @graphql-tools/merge @graphql-tools/schema winston uuid
+
+npm i -D typescript ts-node ts-node-dev @types/node @types/uuid eslint @typescript-eslint/parser @typescript-eslint/eslint-plugin
+```
+
+To run the app
+
+```bash
+npx ts-node-dev --respawn --transpile-only .\src\server.ts
+```
+
+Open postman collection and test the requests.
